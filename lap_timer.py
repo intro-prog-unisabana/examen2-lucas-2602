@@ -70,9 +70,8 @@ def fastest_multi_lap(timer, k):
     # TODO: Implementar
     for i in range(len(timer["laps"]) - k + 1):
         tiempo_acumulado = sum(timer["laps"][i:i+k])
-        if tiempo_acumulado < min_cumulative:
-            min_cumulative = tiempo_acumulado
-    return min_cumulative
+
+    return tiempo_acumulado
 
 
 def longest_decreasing_streak(timer):
@@ -81,7 +80,7 @@ def longest_decreasing_streak(timer):
     donde los tiempos disminuyen estrictamente.
     """
     # TODO: Implementar
-    pass
+    
 
 
 def main():
