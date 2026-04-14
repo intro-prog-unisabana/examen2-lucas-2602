@@ -52,7 +52,7 @@ def format_laps(timer):
     Formato: [t1, t2, t3, ..., tn]
     """
     # TODO: Implementar
-    pass
+    return str(timer["laps"])
 
 
 def fastest_lap(timer):
