@@ -60,7 +60,7 @@ def fastest_lap(timer):
     Retorna el tiempo mas rapido de cualquier vuelta.
     """
     # TODO: Implementar
-    pass
+    return min(timer["laps"])
 
 
 def fastest_multi_lap(timer, k):
